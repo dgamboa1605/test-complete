@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{AE2C487E-F89C-404A-A74E-9B9E67C2B013}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="notepad_" Key="{C4ED30A2-179E-4207-BAFD-9FFD0526CDD9}">
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="notepad++" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="wndNotepad" Key="{51D06142-54F3-4CBA-BDC4-0367B1E0CCEE}">
+								<Image FileName="2046509313" Left="-9" Top="-9" Right="1929" Bottom="1029" />
+								<TypeInfo Item0="{2B093BA2-6C8C-4C60-9AB2-03224131C9B5}" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="Notepad++" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="Scintilla" Key="{874DBC9F-258F-4A6F-BC93-4681D2BB7F6C}">
+										<Image FileName="-95063112" Left="2" Top="115" Right="1918" Bottom="989" />
+										<TypeInfo Item0="{CA726101-E93B-419E-AD2D-57FB3EC070CE}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Scintilla" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Notepad++" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="Tab" Key="{2B26A0CA-1E2F-4967-887F-C9725AD4124D}">
+										<Image FileName="499441635" Left="0" Top="83" Right="1920" Bottom="991" />
+										<TypeInfo Item0="{AF0D23CA-62E0-4C9C-91F0-9E2496BC37F0}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="SysTabControl32" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="Tab" />
+											</Property>
+											<Property Name="Index">
+												<Value Value="1" Type="0" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="dlgSave" Key="{0B99AD2E-6F0D-4C02-A583-EEFF81F0A9BE}">
+								<Image FileName="-1107563757" Left="0" Top="0" Right="394" Bottom="216" />
+								<Properties>
+									<Property Name="WndClass">
+										<Value Value="#32770" />
+									</Property>
+									<Property Name="WndCaption">
+										<Value Value="Save" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="btnNo" Key="{951047B0-E7B3-408F-BFA9-42413F41C23C}">
+										<Image FileName="-1107563757" Left="153" Top="159" Right="253" Bottom="192" />
+										<TypeInfo Item0="{E498BACC-D1C1-485E-A384-F5E77A040BB3}" />
+										<Properties>
+											<Property Name="WndClass">
+												<Value Value="Button" />
+											</Property>
+											<Property Name="WndCaption">
+												<Value Value="&amp;No" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="notepad_" Owner="{C4ED30A2-179E-4207-BAFD-9FFD0526CDD9}">
+			<Child Name="wndNotepad" Owner="{51D06142-54F3-4CBA-BDC4-0367B1E0CCEE}">
+				<Child Name="Scintilla" Owner="{874DBC9F-258F-4A6F-BC93-4681D2BB7F6C}" />
+				<Child Name="Tab" Owner="{2B26A0CA-1E2F-4967-887F-C9725AD4124D}" />
+			</Child>
+			<Child Name="dlgSave" Owner="{0B99AD2E-6F0D-4C02-A583-EEFF81F0A9BE}">
+				<Child Name="btnNo" Owner="{951047B0-E7B3-408F-BFA9-42413F41C23C}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

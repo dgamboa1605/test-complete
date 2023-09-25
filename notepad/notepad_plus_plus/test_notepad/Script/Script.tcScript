@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="steps_notepad" key="{895B0717-0CC9-4494-974F-16B47A578907}" path="steps_notepad.py" />
+	</children>
+</Root>

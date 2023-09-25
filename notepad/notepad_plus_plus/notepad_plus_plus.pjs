@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{04FC6190-1F23-41FD-B1AB-D869735C9B9A}">
+	<children>
+		<child name="test_notepad" key="{04CCE311-C8BE-4F76-AEFE-7B02A061F6AB}" path="test_notepad\test_notepad.mds" />
+	</children>
+	<testItems key="{B3C990CC-168A-444A-853C-42C278DCBFB6}">
+		<children>
+			<testItem key="{04CCE311-C8BE-4F76-AEFE-7B02A061F6AB}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{8B68F152-81EE-4EDB-A41D-8CDAB2B80603}" />
+	<analysis key="{4371518D-7E52-4E3B-8E04-7E06D124ABB4}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+</Root>
