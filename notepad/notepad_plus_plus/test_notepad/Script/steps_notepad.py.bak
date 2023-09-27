@@ -6,6 +6,7 @@ def step_impl():
 def step_impl(param1):
   notepad_ = Aliases.notepad_
   win_notepad = notepad_.wndNotepad
+  #win_notepad.DblClick(1475, 105)
   win_notepad.Scintilla.Keys(param1)
   win_notepad.Close()
 
