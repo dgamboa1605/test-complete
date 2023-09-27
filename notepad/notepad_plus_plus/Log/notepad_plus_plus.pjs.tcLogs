@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="folders"/>
+		<Node name="logs">
+			<Node name="log idx=0000">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45196.5705088194"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{571ADDAD-F378-4021-AC3F-454A48E238EE}"/>
+				<Prp name="nameofroot" type="S" value="notepad_plus_plus"/>
+				<Prp name="relpath" type="S" value="9_27_2023_1_41 PM_31_962\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0001">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45196.5708851505"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{6CBC18BA-E95F-4A9A-8EB1-2F11125377F1}"/>
+				<Prp name="nameofroot" type="S" value="notepad_plus_plus"/>
+				<Prp name="relpath" type="S" value="9_27_2023_1_42 PM_04_477\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+			<Node name="log idx=0002">
+				<Prp name="caption" type="S" value=""/>
+				<Prp name="datetime" type="D" value="45196.6004715741"/>
+				<Prp name="description" type="S" value=""/>
+				<Prp name="key" type="S" value="{08AEDADD-AC63-43BA-9514-2AD4CE49EE8E}"/>
+				<Prp name="nameofroot" type="S" value="notepad_plus_plus"/>
+				<Prp name="relpath" type="S" value="9_27_2023_2_24 PM_40_744\Description.tcLog"/>
+				<Prp name="status" type="I" value="0"/>
+			</Node>
+		</Node>
+		<Prp name="signature" type="S" value="{6511DB44-2372-47B8-8349-ADA0DB4D9E14}"/>
+		<Prp name="version" type="S" value="11.0"/>
+	</Node>
+</Nodes>

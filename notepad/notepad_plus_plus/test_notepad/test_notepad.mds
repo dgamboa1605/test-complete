@@ -8,7 +8,13 @@
 	</children>
 	<config language="{7D0FC31C-B0A7-4F4F-B5AF-1F16370169CB}" />
 	<testItems key="{298DB988-7993-4B42-A660-2DD5FFD5EE81}" version="14">
-		<children />
+		<children>
+			<testItem name="ProjectTestItem1" key="{39C5E748-B7A1-4C7B-989F-43E485CA2810}" group="False" parallel="False" enabled="True" testMoniker="test_notepad|*" count="1" timeout="0" stopOnError="3" stopOnException="2" description="" tmsData="" testCase="True">
+				<testParameters />
+				<environments activeCloud="SWT" />
+				<children />
+			</testItem>
+		</children>
 	</testItems>
 	<variables key="{C7717B6C-DA81-4290-AB1A-FE596D72EAA2}" />
 	<settings key="{194C5A49-EE73-4638-9515-506A85FB2F2F}">
