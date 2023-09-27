@@ -24,6 +24,13 @@ def step_impl():
     message = "Actual Result: " + actual_result
     Log.Error("Note is not added, Test FAILED " + message)
   
-  win_notepad.Tab.Click(1538, 18)
+<<<<<<< HEAD
+  win_notepad.Tab.Click(89, 16)
+=======
+  win_notepad.Tab.Click(70, 14)
+>>>>>>> d65ee0198462847c9ec6b092ba1a4f278d938656
   notepad_.dlgSave.btnNo.ClickButton()  
   win_notepad.Close()
+
+  
+  

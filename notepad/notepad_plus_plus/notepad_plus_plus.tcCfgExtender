@@ -21,16 +21,24 @@
 	<Node name="root">
 		<Node name="data">
 			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
-				<Prp name="activity" type="S" value="{04FC6190-1F23-41FD-B1AB-D869735C9B9A}"/>
+				<Prp name="activity" type="S" value="{895B0717-0CC9-4494-974F-16B47A578907}"/>
 			</Node>
-			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}">
-				<Node name="{389c618b-96e9-4d7f-abc9-62a3a88f0f8a}">
-					<Prp name="hash" type="I" value="1"/>
-				</Node>
-			</Node>
+			<Node name="{2c786620-2489-4cbb-9c1e-1a94437a9245}"/>
 			<Node name="{415b5aa1-c6ac-4d4d-9a53-063a521a45ab}">
 				<Node name="workspace">
-					<Prp name="editorscount" type="I" value="0"/>
+					<Node name="0">
+						<Node name="editor">
+							<Node name="{d9921bff-a395-4425-908d-6767b2d734ea}">
+								<Prp name="key" type="S" value="{67265329-46CA-40DE-9866-4DE1D54598A6}"/>
+							</Node>
+							<Prp name="editor" type="S" value="{2809665A-F8EE-404B-BD62-458E7728E736}"/>
+							<Prp name="focused" type="S" value="{67265329-46CA-40DE-9866-4DE1D54598A6}"/>
+						</Node>
+						<Prp name="edititem" type="S" value="{25C37806-ADF4-46DA-8ACE-9899FCA45EC6}"/>
+					</Node>
+					<Prp name="docking" type="H" value="617162696E00000001000000D20100007801730C74F177F6E666800239201DCAC6C060CC0C13C14777324264EF783F7BEFDEFAD17971E7F52BA56F643919038012201376B38B45CF8E3DEED264BDC8D074C9E655DA40F14D40F106760686E39856B0E0B30C24F71F0A0E01CD3981858F577F054816E4E2B5506551699C1AEF7E783BEC4D72ED2BD7786E0672DD0DA01C86EBB88082C10C250C890C454052812100C84A6748058AD2C1C550C7124D01000EF24A9E"/>
+					<Prp name="editorscount" type="I" value="1"/>
+					<Prp name="enabled" type="B" value="-1"/>
 				</Node>
 			</Node>
 			<Node name="{78a745b3-10ae-4253-9f16-55a8bcaf43c6}">
@@ -116,9 +124,7 @@
 						<Node name="testedapps"/>
 					</Node>
 				</Node>
-				<Node name="notepad_plus_plus logs">
-					<Node name="test_notepad logs"/>
-				</Node>
+				<Node name="notepad_plus_plus logs"/>
 			</Node>
 		</Node>
 		<Prp name="signature" type="S" value="{8EBE6EB3-803D-4913-AD7A-D71552123A67}"/>
