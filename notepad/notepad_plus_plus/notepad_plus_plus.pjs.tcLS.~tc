@@ -20,12 +20,22 @@
 <Nodes version="1">
 	<Node name="root">
 		<Node name="data">
+			<Node name="{04cce311-c8be-4f76-aefe-7b02a061f6ab}">
+				<Prp name="relpath" type="S" value="test_notepad\test_notepad.mds.tcLS"/>
+			</Node>
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{04CCE311-C8BE-4F76-AEFE-7B02A061F6AB}"/>
+			</Node>
 			<Node name="logs">
-				<Prp name="key" type="S" value="{C9EC4506-39F5-4E9B-A188-ABC084209AB9}"/>
+<<<<<<< HEAD
+				<Prp name="key" type="S" value="{A6349083-EF2D-43D6-8302-C2AF74F5E029}"/>
+=======
+				<Prp name="key" type="S" value="{15891FAB-7510-42D6-BA87-060F553A428E}"/>
+>>>>>>> d65ee0198462847c9ec6b092ba1a4f278d938656
 				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
 			<Node name="variables"/>
 		</Node>
-		<Prp name="signature" type="S" value="{49FC0C30-9EF7-4DBD-97A8-B7A00E79A2AF}"/>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
 	</Node>
 </Nodes>

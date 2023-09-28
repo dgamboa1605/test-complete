@@ -27,11 +27,7 @@
 				<Prp name="default project" type="S" value="{04CCE311-C8BE-4F76-AEFE-7B02A061F6AB}"/>
 			</Node>
 			<Node name="logs">
-<<<<<<< HEAD
-				<Prp name="key" type="S" value="{A6349083-EF2D-43D6-8302-C2AF74F5E029}"/>
-=======
-				<Prp name="key" type="S" value="{15891FAB-7510-42D6-BA87-060F553A428E}"/>
->>>>>>> d65ee0198462847c9ec6b092ba1a4f278d938656
+				<Prp name="key" type="S" value="{23100C4F-14D3-4622-B304-AED9D05C9B9C}"/>
 				<Prp name="relpath" type="S" value="Log"/>
 			</Node>
 			<Node name="variables"/>
