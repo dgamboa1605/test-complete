@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="projects">
+			<Node name="project0">
+				<Node name="tests">
+					<Node name="test1">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="Save a text in a file"/>
+						<Prp name="duration" type="I" value="11970"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEEANQBFAEEANQA3AEQALQBEADQARgBGAC0ANAAwAEIAOAAtAEEARQBBADMALQA5AEYAMwAwADUAQwA3AEQAOAAxADUAQQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGw4AAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="11970"/>
+						<Prp name="starttime" type="D" value="45198.6621659491"/>
+					</Node>
+					<Node name="test0">
+						<Node name="warnings"/>
+						<Node name="errors"/>
+						<Prp name="name" type="S" value="Add a note to Notepad++"/>
+						<Prp name="duration" type="I" value="14596"/>
+						<Prp name="executionpoint" type="S" value="executionpoint://ewA3AEEANQBFAEEANQA3AEQALQBEADQARgBGAC0ANAAwAEIAOAAtAEEARQBBADMALQA5AEYAMwAwADUAQwA3AEQAOAAxADUAQQB9AC8AewAwAEMARQA3ADQARgBDADUALQBFADIAQwBEAC0ANAAyADIAMAAtADkAMwBDADIALQAzADgARAA4AEIANwBEADEAMQBCAEUAMAB9AC8AqpN8BLDIC0qKPrSbfs3IGwAAAAAvAGUAbQBwAHQAeQA="/>
+						<Prp name="status" type="I" value="0"/>
+						<Prp name="durationwithoutchildren" type="I" value="14596"/>
+						<Prp name="starttime" type="D" value="45198.6619966667"/>
+					</Node>
+				</Node>
+				<Prp name="name" type="S" value="test_notepad"/>
+				<Prp name="duration" type="I" value="26566"/>
+				<Prp name="incompletedtests" type="I" value="0"/>
+				<Prp name="failedtests" type="I" value="0"/>
+				<Prp name="warningtests" type="I" value="0"/>
+				<Prp name="starttime" type="D" value="45198.6619966667"/>
+			</Node>
+		</Node>
+		<Prp name="incompletedtests" type="I" value="0"/>
+		<Prp name="key" type="S" value="{3E59DA37-075B-4EC7-AED4-5425A55992DA}"/>
+		<Prp name="user" type="S" value="Dennis.Gamboa"/>
+		<Prp name="host" type="S" value="DGAMBOAV-NH01"/>
+		<Prp name="failedtests" type="I" value="0"/>
+		<Prp name="warningtests" type="I" value="0"/>
+		<Prp name="testname" type="S" value="[All Scenarios]"/>
+		<Prp name="warningtestwithretries" type="I" value="0"/>
+		<Prp name="starttime" type="D" value="45198.6619921759"/>
+		<Prp name="name" type="S" value="notepad_plus_plus"/>
+		<Prp name="stop" type="D" value="45198.6623058796"/>
+		<Prp name="tests" type="I" value="2"/>
+		<Prp name="successtestwithretries" type="I" value="0"/>
+		<Prp name="executionstatus" type="I" value="0"/>
+	</Node>
+</Nodes>
